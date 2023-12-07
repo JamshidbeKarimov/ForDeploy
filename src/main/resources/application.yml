@@ -4,7 +4,7 @@ server:
     key-store-password: 123456
     keyStoreType: PKCS12
     keyAlias: myapp
-  port: 8081
+  port: 8080
 
 spring:
   datasource:
