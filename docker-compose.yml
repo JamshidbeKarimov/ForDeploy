@@ -2,7 +2,7 @@ version: "3.8"
 
 
 services:
-  app:
+  my-app:
     build: ./
     ports:
       - "8080:8080"
@@ -11,7 +11,7 @@ services:
       DB_NAME: eticket_db
       DB_PASSWORD: 8463
     depends_on:
-      - db
+      - my_db
   my_db:
     image: postgres
     ports:
